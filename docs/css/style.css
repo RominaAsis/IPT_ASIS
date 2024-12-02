@@ -1,0 +1,109 @@
+*
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(0c48be57b900345803985b6d03c293a9.jpg);
+    color: rgb(17, 1, 1);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+  nav{
+    position: fixed;
+    background: #ab37cc;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+  }
+  nav .menu{
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .menu .logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .btn {
+    background-color: #ab37cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+  }
+  
+  /* Hover effect */
+  .btn:hover {
+    background-color: #e99de9;
+  }
+  
+  /* Styling for the content section */
+  .content-section {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    min-height: 100px;
+  }
+
+  .img{
+    background: url(C:\Users\PC\Desktop\Profile\0c48be57b900345803985b6d03c293a9.jpg)no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  .profile-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    margin-top: 30px;
+  }
+  
+  .center{
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+  }
+  .center .title{
+    color: #0e0101;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+  }
+  .center .sub_title1{
+    color: #0b0000;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+  }
+  .center .sub_title2{
+    color: #0b0000;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+  }
